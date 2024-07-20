@@ -1,0 +1,39 @@
+.gallery {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.gallery-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 19vw;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .gallery {
+        flex-direction: column;
+        gap: 0px;
+        margin-top: 0px;
+    }
+
+    .gallery-column {
+        flex-direction: column;
+        gap: 12px;
+        padding-inline: 15px;
+    }
+
+    .gallery img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
