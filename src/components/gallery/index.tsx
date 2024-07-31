@@ -21,22 +21,22 @@ const column2 = [
 ];
 
 const column3 = [
-    "https://i.imgur.com/capDZ7H.jpeg",
-    "https://i.imgur.com/eSJ8fp2.jpeg",
-    "https://i.imgur.com/6YMYVic.jpeg",
-    "https://i.imgur.com/OuOlzwN.jpeg",
-    "https://i.imgur.com/vkEYVCJ.jpeg",
-    "https://i.imgur.com/HPfJjq9.jpeg"
+    "https://i.imgur.com/xHoUurH.jpeg",
+    "https://i.imgur.com/JmoHL9G.jpeg",
+    "https://i.imgur.com/JetPTOX.jpeg",
+    "https://i.imgur.com/Sgj1sf4.jpeg",
+    "https://i.imgur.com/CYcPfXw.jpeg",
+    "https://i.imgur.com/hqWHyIX.jpeg"
 ];
 
 const column4 = [
-    "https://i.imgur.com/9d2Uyrh.jpeg",
-    "https://i.imgur.com/f7Esgpx.jpeg",
-    "https://i.imgur.com/lxR4HUG.jpeg",
-    "https://i.imgur.com/0PHg6pY.jpeg",
-    "https://i.imgur.com/AGOObLn.jpeg",
-    "https://i.imgur.com/BgnW2e3.jpeg",
-    "https://i.imgur.com/4mB7xiB.jpeg"
+    "https://i.imgur.com/9fSR8SO.jpeg",
+    "https://i.imgur.com/aYySEdT.jpeg",
+    "https://i.imgur.com/RAXAoH7.jpeg",
+    "https://i.imgur.com/w4N6s5F.jpeg",
+    "https://i.imgur.com/O0MNuez.jpeg",
+    "https://i.imgur.com/NiAgTQO.jpeg",
+    "https://i.imgur.com/62FTvC7.jpeg"
 ];
 
 function Gallery() {
