@@ -1,3 +1,4 @@
+import React from 'react'
 import './App.css'
 import './Contact.css'
 import Sidebar from './components/sidebar'
@@ -16,19 +17,25 @@ function Contact() {
             })
         })
 
-        console.log(response)
+        return response.status
     }
 
-    const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault()
         const form = event.currentTarget
-        const name = (form.elements.namedItem('name') as HTMLInputElement).value
-        const email = (form.elements.namedItem('email') as HTMLInputElement).value
-        const message = (form.elements.namedItem('message') as HTMLInputElement).value
+        const name = (form.elements.namedItem('name') as HTMLInputElement)
+        const email = (form.elements.namedItem('email') as HTMLInputElement)
+        const message = (form.elements.namedItem('message') as HTMLInputElement)
 
-        const content = `**IMIĘ:** ${name}\n**MAIL:** ${email}\n**WIADOMOŚĆ:** ${message}`
+        const content = `**IMIĘ:** ${name.value}\n**MAIL:** ${email.value}\n**WIADOMOŚĆ:** ${message.value}`
 
-        sendWebhook(content)
+        const status = await sendWebhook(content)
+        if (status === 204) {
+            alert("Wiadomość została wysłana!")
+            form.reset()
+        } else {
+            alert("Wystąpił błąd podczas wysyłania wiadomości!")
+        }
     }
 
     return (
