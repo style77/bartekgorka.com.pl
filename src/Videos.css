@@ -1,0 +1,38 @@
+.video-desc-text{
+    font-size: 1.2rem;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.video-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.video-container-col {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    gap: 20px;
+}

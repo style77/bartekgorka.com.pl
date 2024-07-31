@@ -8,6 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Contact from './Contact.tsx';
+import Videos from './Videos.tsx';
 
 document.title = "Bartek Górka"
 document.querySelector('link[rel="icon"]')?.remove()
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: '/contact',
     element: <Contact />,
+  },
+  {
+    path: '/videos',
+    element: <Videos />
   }
 ]);
 
