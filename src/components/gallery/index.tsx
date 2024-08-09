@@ -14,7 +14,8 @@ const column1 = [
     "https://i.imgur.com/D63KaYF.jpeg",
     "https://i.imgur.com/khVykNZ.jpeg",
     "https://i.imgur.com/CH8aj1o.jpeg",
-    "https://i.imgur.com/2mbwjgH.jpeg"
+    "https://i.imgur.com/2mbwjgH.jpeg",
+    "https://i.imgur.com/MWLHrBu.jpeg"
 ];
 
 const column2 = [
@@ -63,8 +64,7 @@ const column4 = [
     "https://i.imgur.com/WDMleaM.jpeg",
     "https://i.imgur.com/R8Oiir6.jpeg",
     "https://i.imgur.com/oAfKF8Y.jpeg",
-    "https://i.imgur.com/ZrPFd9l.jpeg",
-    "https://i.imgur.com/MWLHrBu.jpeg",
+    "https://i.imgur.com/ZrPFd9l.jpeg"
 ];
 
 function Gallery() {
