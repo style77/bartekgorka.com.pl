@@ -2,9 +2,18 @@
     text-align: left;
     margin-bottom: 20px;
     margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
 
 .contact-info h1 {
+    margin: 0;
+    font-size: 72px;
+}
+
+.contact-info h2 {
     margin: 0;
     font-size: 24px;
 }

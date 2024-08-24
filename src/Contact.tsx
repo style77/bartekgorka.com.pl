@@ -45,12 +45,17 @@ function Contact() {
             </div>
             <div className="contact-container">
                 <div className="contact-info">
-                    <h1>Bartłomiej Górka</h1>
-                    <p>Fotografia wnętrz i nieruchomości</p>
-                    <p>Fotografia z drona, zdjęcia z lotu ptaka</p>
-                    <p>Polska  |  Bydgoszcz  |  Kujawsko-pomorskie</p>
-                    <p>tel. 692 874 682</p>
-                    <p>mail: <a href="mailto:baax.gorka@op.pl">baax.gorka@op.pl</a></p>
+                    <div>
+                        <h1>KONTAKT</h1>
+                    </div>
+                    <div>
+                        <h2>Bartłomiej Górka</h2>
+                        <p>Fotografia wnętrz i nieruchomości</p>
+                        <p>Fotografia z drona, zdjęcia z lotu ptaka</p>
+                        <p>Polska  |  Bydgoszcz  |  Kujawsko-pomorskie</p>
+                        <p>tel. <a href="tel:692874682">692 874 682</a></p>
+                        <p>mail: <a href="mailto:baax.gorka@op.pl">baax.gorka@op.pl</a></p>
+                    </div>
                 </div>
                 <form className="contact-form" onSubmit={handleSubmit}>
                     <label htmlFor="name">IMIĘ</label>
