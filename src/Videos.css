@@ -1,10 +1,11 @@
 .video-desc-text{
     font-size: 1.2rem;
+    margin-inline: 20px;
 }
 
-video {
-    width: 100%;
-    height: auto;
+.video {
+    height: 530px;
+    width: 298px;
 }
 
 .video-container {
@@ -15,7 +16,13 @@ video {
     align-items: center;
     margin: 0 auto;
     padding: 0;
-    gap: 20px;
+    gap: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .video-container {
+        flex-direction: column;
+    }
 }
 
 .container {
@@ -24,6 +31,8 @@ video {
     justify-content: center;
     margin: 0 auto;
     padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .video-container-col {
@@ -35,4 +44,30 @@ video {
     margin: 0 auto;
     padding: 0;
     gap: 20px;
+}
+
+.mobile-visible {
+    display: none;
+}
+
+.mobile-hidden {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .mobile-visible {
+        display: block;
+    }
+
+    .mobile-hidden {
+        display: none;
+    }
+
+    .container {
+        margin-top: 60px;
+    }
+
+    .video-desc-text {
+        text-align: center;
+    }
 }
