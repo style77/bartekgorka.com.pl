@@ -22,7 +22,7 @@
 @media (max-width: 768px) {
     .gallery {
         flex-direction: column;
-        gap: 0px;
+        gap: 12px;
         margin-top: 0px;
     }
 
